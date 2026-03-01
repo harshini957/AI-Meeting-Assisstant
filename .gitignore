@@ -1,4 +1,4 @@
-# Environment variables
+# Environment files
 .env
 backend/.env
 
@@ -7,7 +7,13 @@ __pycache__/
 *.pyc
 .venv/
 
-# VS Code
+# Uploads and generated files
+backend/uploads/
+UI/uploads/
+*.pdf
+
+# IDE
+.idea/
 .vscode/
 
 # OS
